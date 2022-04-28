@@ -1,0 +1,26 @@
+.imagen{
+    height: 500px;
+    object-fit: cover;
+}
+p{
+    color: white;
+    
+}
+h1,h2,h3,h4,h5{
+    color: white;
+}
+.imagen_card{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.linea_blanca{
+    border-bottom: solid;
+    color: white;
+}
+.margen{
+    margin-top: 200px;
+    margin-bottom: 100px;
+    
+}

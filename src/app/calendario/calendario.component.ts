@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CalendarOptions } from '@fullcalendar/angular'; // useful for typechecking
-
+import esLocale from '@fullcalendar/core/locales/es'
 
 @Component({
   selector: 'app-calendario',
@@ -15,7 +15,8 @@ export class CalendarioComponent implements OnInit {
   }
 
   calendarOptions: CalendarOptions = {
-    initialView: 'dayGridMonth'
+    initialView: 'dayGridMonth',
+    locale: esLocale
   };
 
 }

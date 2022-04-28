@@ -1,3 +1,27 @@
 .bg_card{
     background-color: #2b2924;
 }
+.imagen{
+    height: 500px;
+    object-fit: cover;
+}
+.boton:hover{
+    color: white;
+    background: black;
+}
+p{
+    color: white;
+    
+}
+h1,h2,h3,h4,h5{
+    color: white;
+}
+.margen{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+.linea_blanca{
+    border-bottom: solid 2px;
+    color: white;
+}
