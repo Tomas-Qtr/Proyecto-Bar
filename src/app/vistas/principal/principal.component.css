@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
 .bg_card{
     background-color: #2b2924;
 }
@@ -11,10 +14,11 @@
 }
 p{
     color: white;
-    
+    font-family: 'Anton', sans-serif;
 }
 h1,h2,h3,h4,h5{
     color: white;
+    font-family: 'Anton', sans-serif;
 }
 .margen{
     margin-top: 100px;
@@ -25,3 +29,19 @@ h1,h2,h3,h4,h5{
     border-bottom: solid 2px;
     color: white;
 }
+.imagen_card{
+    height: 200px;
+    width: auto;
+    object-fit: cover;
+}
+
+.card_transform{
+    transition: all ease-out 0.2s;
+    
+}
+.card_transform:hover{
+    transform: scale(1.09);
+    
+    
+}
+
